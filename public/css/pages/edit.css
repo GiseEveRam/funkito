@@ -1,0 +1,37 @@
+.edit {
+    margin: var(--spacing-68) auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: var(--spacing-48);
+}
+
+.edit__title {
+    font-family: var(--alternative-font);
+    color: var(--dark-solid);
+    font-size: var(--font-jumbo);
+    font-weight: 700;
+}
+
+.edit__form{
+    max-width: 990px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--spacing-48);
+}
+
+.edit__img{
+    max-width: 150px;
+    padding-bottom: var(--spacing-36);
+}
+
+.edit__img-side{
+    font-size: var(--font-small);
+    text-align: center;
+    padding-top: var(--spacing-8);
+    border-top: 2px solid var(--primary-solid);
+    font-weight: 600;
+}

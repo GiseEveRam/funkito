@@ -1,0 +1,34 @@
+#login {
+    margin: var(--spacing-68) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--spacing-36);
+      
+  }
+  
+  .login__title {
+    font-family: var(--alternative-font);
+    color: var(--dark-solid);
+    font-size: var(--font-display);
+    text-align: center;
+    font-weight: 700;
+    /* font-style: normal;
+      line-height: normal;
+      letter-spacing: 1.68px; */
+  }
+  
+  .login__form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--spacing-36);
+  }
+  
+  #login .form__link {
+    font-size: var(--font-xsmall);
+    text-align: center;
+  }

@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--base-font);
+  /*62.5->hara 1em =10px*/
+  font-size: 62.5%;
+  color: var(--dark-solid);
+}
+
+a {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit; /*color heredado*/
+}
+header,
+footer {
+  font-family: var(--alternative-font);
+  color: var(--light-font-solid);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+p {
+  font-size: 1.8em;
+}
+img {
+  width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /*arriba y aajo cero, a los costado auto*/
+}
+
+.grid-fixed {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+input[type="text"]::placeholder {
+  color: var(--dark-300);
+  font-family: var(--base-font);
+  font-weight: 500;
+}
